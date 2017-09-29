@@ -1,0 +1,66 @@
+.container .human div {
+  position: absolute;
+  transform-origin: top;
+}
+
+.arm, .leg, .trunk, .neck {
+  width: 2px;
+  height: 25px;
+  background: black;
+}
+
+.neck {
+  height: 15px;
+}
+
+.neck {
+  position: absolute;
+  left: 49px;
+  top: 60px;
+}
+
+.head {
+  box-sizing: border-box;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.arm, .trunk {
+  top: 75px;
+  left: 49px;
+}
+
+.arm {
+  height: 25px;
+}
+
+.trunk {
+  height: 35px;
+  /*transform: rotate(180deg);*/
+}
+
+.leg {
+  top: 110px;
+  left: 49px;
+}
+
+.leg.left {
+  transform: rotate(45deg);
+}
+
+.leg.right {
+  transform: rotate(-45deg);
+}
+
+.arm.left {
+  transform: rotate(90deg);
+}
+
+.arm.right {
+  transform: rotate(-90deg);
+}

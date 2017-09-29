@@ -1,0 +1,35 @@
+@keyframes hug-left {
+  from {
+    transform: rotate(90deg);
+    height: 25px;
+  }
+  to {
+    transform: rotate(100deg);
+    height: 35px;
+  }
+}
+
+@keyframes hug-right {
+  from {
+    transform: rotate(-90deg);
+    height: 25px;
+  }
+  to {
+    transform: rotate(-100deg);
+    height: 35px;
+  }
+}
+
+.human .arm {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.human .arm.left {
+  animation-name: hug-left;
+}
+
+.human .arm.right {
+  animation-name: hug-right;
+}

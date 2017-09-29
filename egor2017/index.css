@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  margin: auto;
+  width: 360px;
+  height: 500px;
+}
+
+.container > div {
+  width: 100px;
+  height: 200px;
+  position: absolute;
+}
+
+.egor {
+  left: 100px;
+  /*background: #eee;*/
+}
+
+.bunny {
+  left: 0;
+  /*background: #efe;*/
+}
+
+.bear {
+  left: 200px;
+  /*background: #fee;*/
+}
+
+
+

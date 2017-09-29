@@ -1,0 +1,58 @@
+@keyframes pulse-egor {
+  0% {
+    left: 100px;
+  }
+  25% {
+    left: 60px;
+  }
+  50% {
+    left: 100px;
+  }
+  75% {
+    left: 140px;
+  }
+  100% {
+    left: 100px;
+  }
+}
+
+@keyframes pulse-bunny {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 30px;
+  }
+  50% {
+    left: 0px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+@keyframes pulse-bear {
+  0% {
+    left: 200px;
+  }
+  50% {
+    left: 200px;
+  }
+  75% {
+    left: 170px;
+  }
+  100% {
+    left: 200px;
+  }
+}
+
+.human {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.egor { animation-name: pulse-egor;}
+.bunny { animation-name: pulse-bunny;}
+.bear { animation-name: pulse-bear;}
+
+
