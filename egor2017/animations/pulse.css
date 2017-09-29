@@ -46,6 +46,32 @@
   }
 }
 
+
+@keyframes zah {
+  0% {
+    opacity: 0;
+    top: 400px;
+  }
+  80% {
+    opacity: 0;
+    top: 400px;
+  }
+  85% {
+    opacity: 1;
+    top: 400px;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.zah {
+  animation-name: zah;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+}
+
 .human {
   animation-duration: 4s;
   animation-iteration-count: infinite;

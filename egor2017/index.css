@@ -13,18 +13,40 @@
 
 .egor {
   left: 100px;
-  /*background: #eee;*/
+}
+
+.egor .head {
+  background: url("img/egor.png") no-repeat;
+  background-size: 30px;
 }
 
 .bunny {
   left: 0;
-  /*background: #efe;*/
+}
+
+.bunny .head {
+  background: url("img/ksu.png") no-repeat;
+  background-size: 43px;
+  left: 30px;
 }
 
 .bear {
   left: 200px;
-  /*background: #fee;*/
 }
 
+.bear .head {
+  background: url("img/bear.png") no-repeat;
+  background-size: 35px;
+  top: 25px;
+}
 
-
+.zah {
+  background: url("img/zah.png") no-repeat;
+  background-size: 80px;
+  width: 80px;
+  height: 160px;
+  position: absolute;
+  opacity: 0;
+  top: 400px;
+  left: 120px;
+}
