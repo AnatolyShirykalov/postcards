@@ -1,0 +1,153 @@
+.kozlov.body, .kozlov div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.kozlov div {
+  position: absolute;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.kozlov.body {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  /*background-image: url('img/front/body.png');*/
+  width: 200px;
+}
+
+.kozlov.body img.front {width: 100%;}
+.kozlov.body img.profile {display: none;}
+.kozlov.body.profile img.front {display: none;}
+.kozlov.body.profile img.profile {width: 100%; display: block;}
+
+.kozlov .head {
+  transform-origin: 50% 80%;
+  /*left: -70px;*/
+  /*top: -341px;*/
+  left: -35%;
+  top: -142.6778%;
+  width: 169.5%;
+  height: 151.05%;
+  background-image: url('img/front/head.png');
+}
+
+
+.kozlov .head .mouth {
+  background-image: url('img/front/omouth.png');
+  /*width: 63px;*/
+  /*height: 47px;*/
+  width: 18.584%;
+  height: 13.019%;
+  top: 80%;
+  left: 42%;
+}
+
+.kozlov .head .mouth.crazy {
+  top: 75%;
+  left: 50%;
+}
+
+.kozlov .arm {
+  /*width: 107px;*/
+  /*height: 168px;*/
+  width: 53.5%;
+  height: 70.293%;
+  z-index: -1;
+}
+
+.kozlov .arm.left {
+  transform-origin: 12.14953271% 4.166667%;
+  /*transform-origin: 13px 7px;*/
+  background-image: url('img/front/lhand.png');
+  /*left: 140px;*/
+  /*top: 26px;*/
+  left: 70%;
+  top: 10.878661%;
+}
+
+.kozlov .arm.right {
+  transform-origin: 79.439252% 4.166667%;
+  /*transform-origin: 85px 7px;*/
+  background-image: url('img/front/rhand.png');
+  left: -23.5%;
+  top: 10.878661%;
+}
+
+.kozlov .leg {
+  width: 56%;
+  height: 94.98%;
+  /*width: 112px;*/
+  /*height: 227px;*/
+}
+
+.kozlov .leg.left {
+  left: 65%;
+  top: 60.669456%;
+  /*left: 130px;*/
+  /*top: 145px;*/
+  background-image: url('img/front/lleg.png');
+}
+
+.kozlov .leg.right {
+  left: -21%;
+  top: 60.669456%;
+  background-image: url('img/front/rleg.png');
+  animation-delay: 1.5s;
+  animation-timing-function: linear;
+}
+
+
+.kozlov.profile.body {
+  /*background-image: url('img/profile/body.png');*/
+  width: 190px;
+  /*height: 237px;*/
+}
+.kozlov.profile.body .head {
+  width: 320px;
+  height: 352px;
+  background-image: url('img/profile/head.png');
+}
+.kozlov.profile.body .arm.left {
+  background-image: url('img/profile/larm.png');
+  left: 49%;
+  top: 16%;
+  z-index: 1;
+  width: 146px;
+  height: 133px;
+  transform-origin: 0% 0%;
+}
+.kozlov.profile.body .arm.right {
+  background-image: url('img/profile/rarm.png');
+  left: -6%;
+  top: -13%;
+  width: 71px;
+  height: 163px;
+  transform-origin: 0% 0%;
+}
+.kozlov.profile.body .leg.left {
+  transform-origin: 54% 0%;
+  left: 52%;
+  top: 70%;
+  width: 138px;
+  height: 178px;
+  background-image: url('img/profile/lleg.png');
+}
+.kozlov.profile.body .leg.right {
+  transform-origin: 0% 0%;
+  left: -35%;
+  top: 70%;
+  z-index: -1;
+  width: 150px;
+  height: 158px;
+  background-image: url('img/profile/rleg.png');
+}
+.kozlov.profile.body .head .mouth{
+  background-image: url('img/profile/omouth.png');
+  width: 46px;
+  height: 35px;
+}

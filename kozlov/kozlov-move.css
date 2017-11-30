@@ -1,0 +1,24 @@
+@keyframes larm {
+  from { transform: rotate(-20deg);}
+  to { transform: rotate(0deg);}
+}
+@keyframes rarm {
+  from { transform: rotate(20deg);}
+  to { transform: rotate(0deg);}
+}
+
+@keyframes osc {
+  from { transform: rotate(-5deg); }
+  to { transform: rotate(5deg); }
+}
+
+@keyframes stomp {
+  from {transform: translateY(-2%);}
+  to {transform: translateY(3%);}
+}
+
+.kozlov .head {animation-name: osc;}
+.kozlov .arm.left {animation-name: larm;}
+.kozlov .arm.right {animation-name: rarm;}
+.kozlov .leg {animation-name: stomp;}
+.kozlov.profile .leg {animation-name: osc;}

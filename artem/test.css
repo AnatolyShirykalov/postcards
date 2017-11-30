@@ -1,0 +1,73 @@
+.artem div {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes test-mouth {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.mouth.opened, .mouth.closed {
+  animation-name: test-mouth;
+}
+
+.mouth.closed { animation-timing-function: step-start;}
+.mouth.opened { animation-timing-function: step-end;}
+
+@keyframes test-larm {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(10deg); }
+}
+
+@keyframes test-rarm {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-10deg); }
+}
+
+.arm, .leg, .head { animation-direction: alternate; }
+.arm.left { animation-name: handdown; }
+.arm.right { animation-name: test-rarm; animation-delay: 1s; }
+
+@keyframes test-lleg {
+  from { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  to { transform: translateY(0px); }
+}
+.artem div.leg {
+  animation-name: test-lleg;
+  animation-duration: 800ms;
+  animation-timing-function: linear;
+}
+.leg.right {animation-delay: 400ms;}
+
+@keyframes test-head {
+  from { transform: rotate(-5deg); }
+  50% { transform: rotate(5deg); }
+  to { transform: rotate(-5deg); }
+}
+
+.head {animation-name: test-head;}
+
+@keyframes test-body{
+  from { top: 0px;}
+  50% { top: 4px;}
+  to { top: 0px;}
+}
+
+.artem.body {
+  animation-name: test-body;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes handdown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(200px);
+  }
+}

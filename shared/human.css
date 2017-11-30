@@ -1,0 +1,38 @@
+.container {
+  background: #cff;
+  width: 720px;
+  height: 720px;
+  position: relative;
+}
+
+.human {
+  background: #fcf;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 300px;
+}
+
+.arm, .neck, .leg {
+  position: absolute;
+  width: inherit;
+  background: black;
+  transform-origin: top;
+}
+
+.arm {
+  height: 70px;
+}
+
+.trunk {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  width: 2px;
+  height: 150px;
+  background: black;
+}
+
+.arm.left { transform: rotate(90deg);}
+.arm.right { transform: rotate(-90deg);}

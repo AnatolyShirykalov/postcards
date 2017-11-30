@@ -1,0 +1,87 @@
+.artem.body {
+  position: relative;
+  background: url('img/body.png') no-repeat;
+  background-size: contain;
+  height: 135px;
+  width: 95px;
+}
+
+.artem.body > .head {
+  position: absolute;
+  top: -183px;
+  left: -53px;
+  background: url('img/ahead.png') no-repeat;
+  width: 195px;
+  height: 203px;
+  transform-origin: 97px 180px;
+}
+
+.artem.body > .arm.left {
+  position: absolute;
+  left: -34px;
+  top: 4px;
+  z-index: -1;
+  background: url('img/larm.png') no-repeat;
+  width: 54px;
+  height: 90px;
+  transform-origin: 37px 0px;
+}
+
+.artem.body > .arm.right {
+  position: absolute;
+  right: -37px;
+  top: 3px;
+  z-index: -1;
+  background: url('img/rarm.png') no-repeat;
+  width: 54px;
+  height: 90px;
+  transform-origin: 14px 0px;
+}
+
+.artem.body > .head > .mouth {
+  position: absolute;
+  z-index: 10;
+}
+
+.artem.body > .head > .mouth.closed,
+.artem.body > .head > .mouth.inverse{
+  background: url('img/cmouth.png');
+  width: 72px;
+  height: 17px;
+  top: 143px;
+  left: 61px;
+}
+
+.artem.body > .head > .mouth.inverse {
+  transform: rotate(180deg);
+  opacity: 0;
+}
+
+.artem.body > .head > .mouth.opened {
+  background: url('img/omouth.png');
+  width: 61px;
+  height: 27px;
+  left: 66px;
+  top: 142px;
+}
+
+.artem.body > .leg.left {
+  transform-origin: 10px 10px;
+  bottom: -59px;
+  z-index: -1;
+  left: 1px;
+  position: absolute;
+  background: url('img/lleg.png');
+  width: 41px;
+  height: 68px;
+}
+
+.artem.body > .leg.right {
+  bottom: -59px;
+  right: 3px;
+  z-index: -1;
+  position: absolute;
+  background: url('img/rleg.png');
+  width: 41px;
+  height: 68px;
+}

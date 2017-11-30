@@ -1,0 +1,26 @@
+@keyframes left-hand {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(100deg);
+  }
+}
+
+@keyframes right-hand {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(-100deg);
+  }
+}
+
+.arm {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.arm.left { animation-name: left-hand;}
+.arm.right { animation-name: right-hand;}
