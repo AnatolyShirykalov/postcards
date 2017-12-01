@@ -4,7 +4,7 @@ var bp = 0;
 var ints = [];
 var Gdirection = 0;
 
-var step = 5.0; // количество пикселей за раз
+var step = 0.03; // количество egor.body за раз
 var period = 30; //период обновлений в миллисекундах
 function setMove(direction) {
   if(Gdirection=== direction) return;
@@ -12,7 +12,7 @@ function setMove(direction) {
   if (direction === -1) egor.classList.add('reverse');
   ints.push(setInterval(function(){
     cw = ground.clientWidth
-    bp = (bp + step * direction + cw) % cw;
+    bp = (bp + step * egor.clientHeight * direction + cw) % cw;
     ground.style = "background-position: "+Math.floor(bp)+'px 0';
   }, period));
   Gdirection = direction;
