@@ -9,11 +9,11 @@
 
 .instructions .cursor-left {
   background-image: url('img/keyboard/cursor-left.svg');
-  margin-right: 1vw;
+  margin-right: 3vw;
 }
 
 .instructions .cursor-right {
-  margin-left: 1vw;
+  margin-left: 3vw;
   background-image: url('img/keyboard/cursor-right.svg');
 }
 
