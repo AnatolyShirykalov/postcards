@@ -39,4 +39,5 @@
   background-image: url('img/keyboard/spacebar.svg');
   margin-top: 1vh;
   width: 70vh;
+  max-width: 90vw;
 }
