@@ -1,4 +1,5 @@
 var egor = document.querySelector('.kozlov');
+var mouth =  egor.querySelector('.mouth');
 var ground = document.querySelector('.ground');
 var bp = 0;
 var ints = [];
@@ -32,6 +33,10 @@ function jump() {
   egor.classList.add('jump');
 }
 
+function openMouth() { mouth.classList.remove('closed'); }
+function closeMouth() { mouth.classList.add('closed'); }
+
+
 egor.addEventListener('animationend', function(){
   if (!egor.classList.contains('fail')) return egor.classList.add('fail');
   ['jump', 'fail'].forEach(function(k){egor.classList.remove(k)});
@@ -42,10 +47,13 @@ document.addEventListener('keydown', function(event) {
   var kk = event.keyCode;
   if (ms.hasOwnProperty(kk)) setMove(ms[kk]);
   if (kk === 32) jump();
+  if (kk === 16) openMouth();
 });
 
 document.addEventListener('keyup', function(event) {
-  if (event.keyCode === 37 || event.keyCode === 39) stopMove();
+  var kk = event.keyCode;
+  if (kk === 37 || kk === 39) stopMove();
+  if (kk === 16) closeMouth();
 });
 
 var cs = document.querySelectorAll('.controls .key');

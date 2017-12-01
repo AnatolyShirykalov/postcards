@@ -40,6 +40,14 @@
 }
 
 
+.kozlov .head .mouth.closed {
+  background-image: url('img/front/cmouth.png');
+  width: 34.5131%;
+  height: 8.033%;
+  left: 35%;
+}
+
+
 .kozlov .head .mouth {
   background-image: url('img/front/omouth.png');
   /*width: 63px;*/
@@ -127,6 +135,15 @@
   /*height: 35px;*/
   left: 28%;
 }
+
+.kozlov.profile.body .head .mouth.closed {
+  background-image: url('img/profile/cmouth.png');
+  width: 25%;
+  height: 11.07954%;
+  left: 21%;
+  top: 75%;
+}
+
 .kozlov.profile.body .arm.left {
   background-image: url('img/profile/larm.png');
   left: 67%;
