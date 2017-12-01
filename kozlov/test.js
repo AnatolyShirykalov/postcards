@@ -59,5 +59,3 @@ var cs = document.querySelectorAll('.instructions .cursor');
   });
 });
 
-if (navigator && !navigator.userAgent.match(/Android|iPhone|iPad/))
-  document.querySelector('.instructions').style="display:none";
