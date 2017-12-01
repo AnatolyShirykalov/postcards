@@ -9,16 +9,16 @@
 
 .controls .cursor-left {
   background-image: url('img/keyboard/cursor-left.svg');
-  margin-right: 5vw;
+  margin-right: 5vh;
 }
 
 .controls .cursor-right {
-  margin-left: 5vw;
+  margin-left: 5vh;
   background-image: url('img/keyboard/cursor-right.svg');
 }
 
 .controls .key {
-  height: 10vw;
+  height: 10vh;
   background-size: contain;
   background-position: center;
   display: inline-block;
@@ -28,7 +28,7 @@
 
 .controls .cursor {
   margin-top: 70vh;
-  width: 10vw;
+  width: 10vh;
 }
 
 .controls .key.active {
@@ -38,5 +38,5 @@
 .controls .spacebar {
   background-image: url('img/keyboard/spacebar.svg');
   margin-top: 1vh;
-  width: 70vw;
+  width: 70vh;
 }
