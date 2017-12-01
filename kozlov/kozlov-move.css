@@ -26,6 +26,15 @@
 .kozlov .arm.left {animation-name: larm;}
 .kozlov .arm.right {animation-name: rarm;}
 .kozlov .leg {animation-name: stomp;}
+.kozlov.profile .arm {
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.kozlov.profile .arm.left {
+  animation-name: lleg;
+  animation-delay: 1s;
+}
+.kozlov.profile .arm.right {animation-name: lleg;}
 .kozlov.profile .leg.left {
   animation-name: lleg;
 }
