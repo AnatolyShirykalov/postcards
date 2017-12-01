@@ -28,7 +28,7 @@
 }
 
 .arm, .leg, .head { animation-direction: alternate; }
-.arm.left { animation-name: handdown; }
+.arm.left { animation-name: test-larm; }
 .arm.right { animation-name: test-rarm; animation-delay: 1s; }
 
 @keyframes test-lleg {

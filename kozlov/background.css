@@ -1,0 +1,11 @@
+.background {
+  position: absolute;
+  top: 69.5vh;
+  margin: 0 10vw;
+  width: 80vw;
+  height: 100px;
+  background-image: linear-gradient(90deg, #ded 50%, #ede 50%);
+  background-size: 80vw 100px;
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+}

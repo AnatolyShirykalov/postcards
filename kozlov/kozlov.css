@@ -15,15 +15,18 @@
 .kozlov.body {
   position: absolute;
   left: 30%;
-  top: 40%;
+  top: 40vh;
   /*background-image: url('img/front/body.png');*/
-  width: 200px;
+  /*width: 200px;*/
+  /*width: 20vw;*/
+  height: 20vh;
 }
 
-.kozlov.body img.front {width: 100%;}
+/*.kozlov.body img.front {width: 100%;}*/
 .kozlov.body img.profile {display: none;}
 .kozlov.body.profile img.front {display: none;}
-.kozlov.body.profile img.profile {width: 100%; display: block;}
+.kozlov.body.profile img.profile {display: block;}
+.kozlov.body img{height: 100%;}
 
 .kozlov .head {
   transform-origin: 50% 80%;
@@ -97,14 +100,14 @@
   left: -21%;
   top: 60.669456%;
   background-image: url('img/front/rleg.png');
-  animation-delay: 1s;
   animation-timing-function: linear;
 }
 
 
 .kozlov.profile.body {
   /*background-image: url('img/profile/body.png');*/
-  width: 190px;
+  /*width: 190px;*/
+  /*width: 20vw;*/
   /*height: 237px;*/
 }
 .kozlov.profile.body .head {
@@ -167,3 +170,6 @@
   background-image: url('img/profile/rleg.png');
 }
 
+.kozlov.reverse {
+  transform: scaleX(-1);
+}
