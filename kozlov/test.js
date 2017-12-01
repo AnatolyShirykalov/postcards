@@ -1,5 +1,5 @@
 var egor = document.querySelector('.kozlov');
-var container = document.querySelector('.background');
+var ground = document.querySelector('.ground');
 var bp = 0;
 var ints = [];
 var Gdirection = 0;
@@ -11,9 +11,9 @@ function setMove(direction) {
   egor.classList.add('profile');
   if (direction === -1) egor.classList.add('reverse');
   ints.push(setInterval(function(){
-    cw = container.clientWidth
+    cw = ground.clientWidth
     bp = (bp + step * direction + cw) % cw;
-    container.style = "background-position: "+Math.floor(bp)+'px 0';
+    ground.style = "background-position: "+Math.floor(bp)+'px 0';
   }, period));
   Gdirection = direction;
 }
@@ -28,34 +28,42 @@ function stopMove(){
   }
 }
 
+function jump() {
+  egor.classList.add('jump');
+}
+
+egor.addEventListener('animationend', function(){
+  if (!egor.classList.contains('fail')) return egor.classList.add('fail');
+  ['jump', 'fail'].forEach(function(k){egor.classList.remove(k)});
+});
+
 document.addEventListener('keydown', function(event) {
   var ms = {37: 1, 39: -1};
   var kk = event.keyCode;
   if (ms.hasOwnProperty(kk)) setMove(ms[kk]);
+  if (kk === 32) jump();
 });
 
 document.addEventListener('keyup', function(event) {
   if (event.keyCode === 37 || event.keyCode === 39) stopMove();
 });
 
-var cs = document.querySelectorAll('.instructions .cursor');
-[].forEach.call(cs, function(cursor){
-  cursor.addEventListener('touchstart', function(event){
+var cs = document.querySelectorAll('.controls .key');
+[].forEach.call(cs, function(key){
+  key.addEventListener('touchstart', function(event){
     event.preventDefault();
     var cls = event.target.classList;
     if (cls.contains('cursor-left')) setMove(1);
     if (cls.contains('cursor-right')) setMove(-1);
+    if (cls.contains('spacebar')) jump();
     cls.add('active');
   });
-  cursor.addEventListener('touchend', function(event){
+  function endCancelHandler (event){
     event.preventDefault();
     event.target.classList.remove('active');
-    stopMove();
-  });
-  cursor.addEventListener('touchcancel', function(event){
-    event.preventDefault();
-    event.target.classList.remove('active');
-    stopMove();
-  });
+    if (!event.target.classList.contains('spacebar')) stopMove();
+  };
+  key.addEventListener('touchend', endCancelHandler);
+  key.addEventListener('touchcancel', endCancelHandler);
 });
 

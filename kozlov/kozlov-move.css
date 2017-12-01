@@ -47,3 +47,18 @@
 .kozlov.profile .leg.left {
   animation-name: rleg;
 }
+
+@keyframes jump-up {
+  from {top: 40vh;}
+  to {top: 20vh;}
+}
+
+.body.jump {
+  animation-name: jump-up, jump-up;
+  animation-duration: 1s, 1s;
+  animation-iteration-count: 1, 1;
+  animation-direction: normal, reverse;
+  animation-delay: 0s, 1s;
+  animation-timing-function: cubic-bezier(.56,.85,.56,.85), cubic-bezier(.56,.85,.56,.85);
+}
+

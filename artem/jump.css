@@ -3,7 +3,7 @@
   to {top: -300px;}
 }
 
-.artem.body.jump {
+.body.jump {
   animation-name: jump-up, jump-up;
   animation-duration: 1s, 1s;
   animation-iteration-count: 1, 1;
