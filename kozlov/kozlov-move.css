@@ -12,6 +12,11 @@
   to { transform: rotate(5deg); }
 }
 
+@keyframes lleg {
+  from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+
 @keyframes stomp {
   from {transform: translateY(-2%);}
   to {transform: translateY(3%);}
@@ -21,4 +26,11 @@
 .kozlov .arm.left {animation-name: larm;}
 .kozlov .arm.right {animation-name: rarm;}
 .kozlov .leg {animation-name: stomp;}
-.kozlov.profile .leg {animation-name: osc;}
+.kozlov.profile .leg.left {
+  animation-name: lleg;
+}
+.kozlov.profile .leg {
+  animation-duration: 1s;
+  animation-name: lleg;
+  animation-timing-function: linear;
+}

@@ -97,7 +97,7 @@
   left: -21%;
   top: 60.669456%;
   background-image: url('img/front/rleg.png');
-  animation-delay: 1.5s;
+  animation-delay: 1s;
   animation-timing-function: linear;
 }
 
@@ -108,39 +108,43 @@
   /*height: 237px;*/
 }
 .kozlov.profile.body .head {
+  left: -18%;
+  top: -135%;
   width: 320px;
   height: 352px;
   background-image: url('img/profile/head.png');
 }
 .kozlov.profile.body .arm.left {
   background-image: url('img/profile/larm.png');
-  left: 49%;
-  top: 16%;
+  left: 67%;
+  top: 15%;
+  /*width: 71px;*/
+  /*height: 163px;*/
+  width: 37.368421%;
+  height: 68.7763713%;
   z-index: 1;
-  width: 146px;
-  height: 133px;
   transform-origin: 0% 0%;
 }
 .kozlov.profile.body .arm.right {
   background-image: url('img/profile/rarm.png');
-  left: -6%;
-  top: -13%;
-  width: 71px;
-  height: 163px;
+  left: -34%;
+  top: 10%;
+  width: 146px;
+  height: 133px;
   transform-origin: 0% 0%;
 }
 .kozlov.profile.body .leg.left {
   transform-origin: 54% 0%;
-  left: 52%;
-  top: 70%;
+  left: 36%;
+  top: 79%;
   width: 138px;
   height: 178px;
   background-image: url('img/profile/lleg.png');
 }
 .kozlov.profile.body .leg.right {
-  transform-origin: 0% 0%;
+  transform-origin: 100% 6%;
   left: -35%;
-  top: 70%;
+  top: 75%;
   z-index: -1;
   width: 150px;
   height: 158px;
@@ -150,4 +154,5 @@
   background-image: url('img/profile/omouth.png');
   width: 46px;
   height: 35px;
+  left: 28%;
 }
