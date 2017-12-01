@@ -18,33 +18,43 @@ function setMove(direction) {
   Gdirection = direction;
 }
 
+function stopMove(){
+  egor.classList.remove('profile');
+  egor.classList.remove('reverse');
+  Gdirection = 0;
+  if (ints.length > 0) {
+    ints.forEach(function(int){clearInterval(int);});
+    ints = [];
+  }
+}
+
 document.addEventListener('keydown', function(event) {
-  console.log(event.keyCode);
-  switch(event.keyCode){
-    case 37:
-      setMove(1);
-      break;
-    case 39:
-      setMove(-1);
-      break;
-    default:
-      return;
-  }
-  if (event.keyCode === 37) {
-    event.preventDefault();
-    setMove(1);
-  }
+  var ms = {37: 1, 39: -1};
+  var kk = event.keyCode;
+  if (ms.hasOwnProperty(kk)) setMove(ms[kk]);
 });
 
 document.addEventListener('keyup', function(event) {
-  if (event.keyCode === 37 || event.keyCode === 39) {
-    egor.classList.remove('profile');
-    egor.classList.remove('reverse');
-    Gdirection = 0;
-    if (ints.length > 0) {
-      ints.forEach(function(int){clearInterval(int);});
-      ints = [];
-    }
-  }
+  if (event.keyCode === 37 || event.keyCode === 39) stopMove();
 });
 
+var cs = document.querySelectorAll('.instructions .cursor');
+[].forEach.call(cs, function(cursor){
+  cursor.addEventListener('touchstart', function(event){
+    event.preventDefault();
+    var cls = event.target.classList;
+    if (cls.contains('cursor-left')) setMove(1);
+    if (cls.contains('cursor-right')) setMove(-1);
+    cls.add('active');
+  });
+  cursor.addEventListener('touchend', function(event){
+    event.preventDefault();
+    event.target.classList.remove('active');
+    stopMove();
+  });
+  cursor.addEventListener('touchcancel', function(event){
+    event.preventDefault();
+    event.target.classList.remove('active');
+    stopMove();
+  });
+});

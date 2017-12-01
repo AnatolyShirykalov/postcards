@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+}
+
+.instructions {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.instructions .cursor-left {
+  background-image: url('img/keyboard/cursor-left.svg');
+  margin-right: 1vw;
+}
+
+.instructions .cursor-right {
+  margin-left: 1vw;
+  background-image: url('img/keyboard/cursor-right.svg');
+}
+
+.instructions .cursor {
+  width: 10vw;
+  height: 10vw;
+  background-size: contain;
+  background-position: center;
+  display: inline-block;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.instructions .cursor.active {
+  border: 0.2vh solid transparent;
+}
