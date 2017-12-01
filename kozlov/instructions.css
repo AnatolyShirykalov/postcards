@@ -18,6 +18,7 @@
 }
 
 .instructions .cursor {
+  margin-top: 80vh;
   width: 10vw;
   height: 10vw;
   background-size: contain;
