@@ -49,8 +49,8 @@
 }
 
 @keyframes jump-up {
-  from {top: 40vh;}
-  to {top: 20vh;}
+  from {top: 30vh;}
+  to {top: 10vh;}
 }
 
 .body.jump {
