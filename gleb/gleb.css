@@ -1,0 +1,195 @@
+.gleb.body, .gleb div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.gleb div {
+  position: absolute;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.gleb.body {
+  position: absolute;
+  left: 37vw;
+  top: 30vh;
+  /*background-image: url('img/front/body.png');*/
+  /*width: 200px;*/
+  /*width: 20vw;*/
+  height: 20vh;
+}
+
+/*.gleb.body img.front {width: 100%;}*/
+.gleb.body img.profile {display: none;}
+.gleb.body.profile img.front {display: none;}
+.gleb.body.profile img.profile {display: block;}
+.gleb.body img{height: 100%;}
+
+.gleb .head {
+  transform-origin: 50% 80%;
+  /*left: -70px;*/
+  /*top: -341px;*/
+  left: -35%;
+  top: -142.6778%;
+  width: 169.5%;
+  height: 151.05%;
+  background-image: url('img/head_fas.png');
+}
+
+
+.gleb .head .mouth.closed {
+  background-image: url('img/mouth_closed_fas.png');
+  width: 34.5131%;
+  height: 8.033%;
+  left: 35%;
+}
+
+
+.gleb .head .mouth {
+  background-image: url('img/mouth_open_fas.png');
+  /*width: 63px;*/
+  /*height: 47px;*/
+  width: 18.584%;
+  height: 13.019%;
+  top: 80%;
+  left: 42%;
+}
+
+.gleb .head .mouth.crazy {
+  top: 75%;
+  left: 50%;
+}
+
+.gleb .arm {
+  /*width: 107px;*/
+  /*height: 168px;*/
+  width: 53.5%;
+  height: 70.293%;
+  z-index: -1;
+}
+
+.gleb .arm.left {
+  transform-origin: 12.14953271% 4.166667%;
+  /*transform-origin: 13px 7px;*/
+  background-image: url('img/left_shoulder_fas.png');
+  /*left: 140px;*/
+  /*top: 26px;*/
+  left: 70%;
+  top: 10.878661%;
+}
+
+.gleb .arm.right {
+  transform-origin: 79.439252% 4.166667%;
+  /*transform-origin: 85px 7px;*/
+  background-image: url('img/right_shoulder_fac.png');
+  left: -23.5%;
+  top: 10.878661%;
+}
+
+.gleb .leg {
+  width: 56%;
+  height: 94.98%;
+  /*width: 112px;*/
+  /*height: 227px;*/
+}
+
+.gleb .leg.left {
+  left: 65%;
+  top: 60.669456%;
+  /*left: 130px;*/
+  /*top: 145px;*/
+  background-image: url('img/left_trouser_leg.png');
+}
+
+.gleb .leg.right {
+  left: -21%;
+  top: 60.669456%;
+  background-image: url('img/right_trouser_leg.png');
+  animation-timing-function: linear;
+}
+
+
+.gleb.profile.body {
+  /*background-image: url('img/profile/body.png');*/
+  /*width: 190px;*/
+  /*width: 20vw;*/
+  /*height: 237px;*/
+}
+.gleb.profile.body .head {
+  left: -18%;
+  top: -135%;
+  width: 168.4211%;
+  height: 148.5232%;
+  /*width: 320px;*/
+  /*height: 352px;*/
+  background-image: url('img/head_sideways.png');
+}
+.gleb.profile.body .head .mouth{
+  background-image: url('img/mouth_open_sideways.png');
+  width: 14.375%;
+  height: 9.94318%;
+  /*width: 46px;*/
+  /*height: 35px;*/
+  left: 28%;
+}
+
+.gleb.profile.body .head .mouth.closed {
+  background-image: url('img/mouth_closed_sideways.png');
+  width: 25%;
+  height: 11.07954%;
+  left: 21%;
+  top: 75%;
+}
+
+.gleb.profile.body .arm.left {
+  background-image: url('img/left_shoulder_sideways.png');
+  left: 67%;
+  top: 15%;
+  /*width: 71px;*/
+  /*height: 163px;*/
+  width: 37.368421%;
+  height: 68.7763713%;
+  z-index: 1;
+  transform-origin: 44% 20%;
+}
+.gleb.profile.body .arm.right {
+  background-image: url('img/right_shoulder_sideways.png');
+  left: -34%;
+  top: 10%;
+  /*width: 146px;*/
+  /*height: 133px;*/
+  width: 76.8421%;
+  height: 56.1181%;
+  transform-origin: 100% 0%;
+}
+.gleb.profile.body .leg.left {
+  transform-origin: 54% 0%;
+  left: 36%;
+  top: 79%;
+  /*width: 138px;*/
+  /*height: 178px;*/
+  width: 72.6316%;
+  height: 75.1055%;
+  background-image: url('img/left_leg_on_the_side.png');
+}
+.gleb.profile.body .leg.right {
+  transform-origin: 100% 6%;
+  left: -35%;
+  top: 75%;
+  z-index: -1;
+  /*width: 150px;*/
+  /*height: 158px;*/
+  width: 78.9474%;
+  height: 66.6667%;
+  background-image: url('img/right_leg_on_the_side.png');
+}
+
+.gleb.reverse {
+  transform: scaleX(-1);
+}
+
+.gleb .brush.right {
+}
