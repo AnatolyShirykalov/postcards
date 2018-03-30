@@ -1,0 +1,109 @@
+.torso_fas {
+  top: 400px;
+  left: 200px;
+}
+.torso_fas .head {
+  top: -110%;
+  left: 3%;
+}
+.torso_fas .head .mouth_closed {
+  bottom: 20%;
+  left: 30%;
+}
+.torso_fas .head .mouth_open {
+  bottom: 15%;
+  left: 40%;
+}
+.torso_fas .left_shoulder {
+  top: 26%;
+  right: -16%;
+}
+.torso_fas .left_shoulder .brush {
+  z-index: -10;
+  top: 55%;
+  left: 20%;
+}
+.torso_fas .right_shoulder {
+  top: 26%;
+  left: -16%;
+}
+.torso_fas .right_shoulder .brush {
+  z-index: -10;
+  top: 55%;
+  right: 20%;
+}
+.torso_fas .shorts {
+  z-index: -10;
+  bottom: -25%;
+  left: 18%;
+}
+.torso_fas .shorts .left_trouser {
+  top: 15%;
+  right: -3%;
+}
+.torso_fas .shorts .left_trouser .foot {
+  z-index: -20;
+  top: 50%;
+  left: 5%;
+}
+.torso_fas .shorts .right_trouser {
+  top: 15%;
+  left: -3%;
+}
+.torso_fas .shorts .right_trouser .foot {
+  z-index: -20;
+  top: 50%;
+  left: -40%;
+}
+.torso_side {
+  top: 200px;
+  left: 200px;
+}
+.torso_side .head {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .head .mouth_close {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .head .mouth_open {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .left_shoulder {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .left_shoulder .hand {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .right_shoulder {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .right_shoulder .hand {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .shorts {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .shorts .left_leg {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .shorts .left_leg .foot {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .shorts .right_leg {
+  top: 0px;
+  left: 0px;
+}
+.torso_side .shorts .right_leg .foot {
+  top: 0px;
+  left: 0px;
+}

@@ -1,120 +1,131 @@
+.torso_fas {
+  position: relative;
+  width: 341px;
+  height: 302px;
+}
 .torso_fas .head {
-  background: url("img/torso_fas/head.png");
-  width: 0.93841642228739008%;
-  height: 1.3841059602649006%;
+  position: absolute;
+  width: 93.841642228739005%;
+  height: 138.41059602649005%;
 }
 .torso_fas .head .mouth_closed {
-  background: url("img/torso_fas/head/mouth_closed.png");
-  width: 0.36562499999999998%;
-  height: 0.069377990430622011%;
+  position: absolute;
+  width: 36.5625%;
+  height: 6.937799043062201%;
 }
 .torso_fas .head .mouth_open {
-  background: url("img/torso_fas/head/mouth_open.png");
-  width: 0.19687499999999999%;
-  height: 0.11244019138755981%;
+  position: absolute;
+  width: 19.6875%;
+  height: 11.244019138755981%;
 }
 .torso_fas .left_shoulder {
-  background: url("img/torso_fas/left_shoulder.png");
-  width: 0.36070381231671556%;
-  height: 0.50993377483443714%;
+  position: absolute;
+  width: 36.070381231671554%;
+  height: 50.993377483443709%;
 }
 .torso_fas .left_shoulder .brush {
-  background: url("img/torso_fas/left_shoulder/brush.png");
-  width: 0.7967479674796748%;
-  height: 1.1883116883116882%;
+  position: absolute;
+  width: 79.674796747967477%;
+  height: 118.83116883116882%;
 }
 .torso_fas .right_shoulder {
-  background: url("img/torso_fas/right_shoulder.png");
-  width: 0.36070381231671556%;
-  height: 0.50993377483443714%;
+  position: absolute;
+  width: 36.070381231671554%;
+  height: 50.993377483443709%;
 }
 .torso_fas .right_shoulder .brush {
-  background: url("img/torso_fas/right_shoulder/brush.png");
-  width: 0.7967479674796748%;
-  height: 1.1883116883116882%;
+  position: absolute;
+  width: 79.674796747967477%;
+  height: 118.83116883116882%;
 }
 .torso_fas .shorts {
-  background: url("img/torso_fas/shorts.png");
-  width: 0.64516129032258063%;
-  height: 0.37086092715231789%;
+  position: absolute;
+  width: 64.516129032258064%;
+  height: 37.086092715231786%;
 }
 .torso_fas .shorts .left_trouser {
-  background: url("img/torso_fas/shorts/left_trouser.png");
-  width: 0.37727272727272726%;
-  height: 1.0267857142857142%;
+  position: absolute;
+  width: 37.727272727272727%;
+  height: 102.67857142857143%;
 }
 .torso_fas .shorts .left_trouser .foot {
-  background: url("img/torso_fas/shorts/left_trouser/foot.png");
-  width: 1.3975903614457832%;
-  height: 1.3999999999999999%;
+  position: absolute;
+  width: 139.75903614457832%;
+  height: 140.%;
 }
 .torso_fas .shorts .right_trouser {
-  background: url("img/torso_fas/shorts/right_trouser.png");
-  width: 0.37727272727272726%;
-  height: 1.0267857142857142%;
+  position: absolute;
+  width: 37.727272727272727%;
+  height: 102.67857142857143%;
 }
 .torso_fas .shorts .right_trouser .foot {
-  background: url("img/torso_fas/shorts/right_trouser/foot.png");
-  width: 1.3975903614457832%;
-  height: 1.3999999999999999%;
+  position: absolute;
+  width: 139.75903614457832%;
+  height: 140.%;
+}
+.torso_side {
+  display: none;
+  position: relative;
+  width: 294px;
+  height: 283px;
 }
 .torso_side .head {
-  background: url("img/torso_side/head.png");
-  width: 1.1666666666666667%;
-  height: 1.4946996466431095%;
+  position: absolute;
+  width: 116.66666666666667%;
+  height: 149.46996466431096%;
 }
 .torso_side .head .mouth_close {
-  background: url("img/torso_side/head/mouth_close.png");
-  width: 0.13411078717201166%;
-  height: 0.082742316784869971%;
+  position: absolute;
+  width: 13.411078717201166%;
+  height: 8.2742316784869985%;
 }
 .torso_side .head .mouth_open {
-  background: url("img/torso_side/head/mouth_open.png");
-  width: 0.23323615160349853%;
-  height: 0.092198581560283682%;
+  position: absolute;
+  width: 23.323615160349853%;
+  height: 9.2198581560283692%;
 }
 .torso_side .left_shoulder {
-  background: url("img/torso_side/left_shoulder.png");
-  width: 0.46598639455782315%;
-  height: 0.36749116607773852%;
+  position: absolute;
+  width: 46.598639455782312%;
+  height: 36.74911660777385%;
 }
 .torso_side .left_shoulder .hand {
-  background: url("img/torso_side/left_shoulder/hand.png");
-  width: 1.051094890510949%;
-  height: 1.3942307692307692%;
+  position: absolute;
+  width: 105.1094890510949%;
+  height: 139.42307692307693%;
 }
 .torso_side .right_shoulder {
-  background: url("img/torso_side/right_shoulder.png");
-  width: 0.52040816326530615%;
-  height: 0.41342756183745583%;
+  position: absolute;
+  width: 52.04081632653061%;
+  height: 41.342756183745585%;
 }
 .torso_side .right_shoulder .hand {
-  background: url("img/torso_side/right_shoulder/hand.png");
-  width: 1.1111111111111112%;
-  height: 1.2222222222222223%;
+  position: absolute;
+  width: 111.11111111111111%;
+  height: 122.22222222222223%;
 }
 .torso_side .shorts {
-  background: url("img/torso_side/shorts.png");
-  width: 0.78911564625850339%;
-  height: 0.37102473498233218%;
+  position: absolute;
+  width: 78.911564625850346%;
+  height: 37.102473498233216%;
 }
 .torso_side .shorts .left_leg {
-  background: url("img/torso_side/shorts/left_leg.png");
-  width: 0.44827586206896552%;
-  height: 1.2095238095238094%;
+  position: absolute;
+  width: 44.827586206896555%;
+  height: 120.95238095238095%;
 }
 .torso_side .shorts .left_leg .foot {
-  background: url("img/torso_side/shorts/left_leg/foot.png");
-  width: 0.96153846153846156%;
-  height: 1.2913385826771653%;
+  position: absolute;
+  width: 96.15384615384616%;
+  height: 129.13385826771653%;
 }
 .torso_side .shorts .right_leg {
-  background: url("img/torso_side/shorts/right_leg.png");
-  width: 0.44827586206896552%;
-  height: 1.2095238095238094%;
+  position: absolute;
+  width: 44.827586206896555%;
+  height: 120.95238095238095%;
 }
 .torso_side .shorts .right_leg .foot {
-  background: url("img/torso_side/shorts/right_leg/foot.png");
-  width: 0.96153846153846156%;
-  height: 1.2913385826771653%;
+  position: absolute;
+  width: 96.15384615384616%;
+  height: 129.13385826771653%;
 }
