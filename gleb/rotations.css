@@ -1,0 +1,72 @@
+.torso_fas .head {
+  transform-origin: 50% 87%;
+}
+.torso_fas .head .mouth_closed {
+  transform-origin: 0% 0%;
+}
+.torso_fas .head .mouth_open {
+  transform-origin: 0% 0%;
+}
+.torso_fas .left_shoulder {
+  transform-origin: 28% 7%;
+}
+.torso_fas .left_shoulder .brush {
+  transform-origin: 35% 5%;
+}
+.torso_fas .right_shoulder {
+  transform-origin: 62% 7%;
+}
+.torso_fas .right_shoulder .brush {
+  transform-origin: 56% 5%;
+}
+.torso_fas .shorts {
+  transform-origin: 0% 0%;
+}
+.torso_fas .shorts .left_trouser {
+  transform-origin: 84% 0%;
+}
+.torso_fas .shorts .left_trouser .foot {
+  transform-origin: 29% 10%;
+}
+.torso_fas .shorts .right_trouser {
+  transform-origin: 0% 0%;
+}
+.torso_fas .shorts .right_trouser .foot {
+  transform-origin: 62% 15%;
+}
+.torso_side .head {
+  transform-origin: 0% 0%;
+}
+.torso_side .head .mouth_close {
+  transform-origin: 0% 0%;
+}
+.torso_side .head .mouth_open {
+  transform-origin: 0% 0%;
+}
+.torso_side .left_shoulder {
+  transform-origin: 0% 0%;
+}
+.torso_side .left_shoulder .hand {
+  transform-origin: 0% 0%;
+}
+.torso_side .right_shoulder {
+  transform-origin: 0% 0%;
+}
+.torso_side .right_shoulder .hand {
+  transform-origin: 0% 0%;
+}
+.torso_side .shorts {
+  transform-origin: 0% 0%;
+}
+.torso_side .shorts .left_leg {
+  transform-origin: 0% 0%;
+}
+.torso_side .shorts .left_leg .foot {
+  transform-origin: 0% 0%;
+}
+.torso_side .shorts .right_leg {
+  transform-origin: 0% 0%;
+}
+.torso_side .shorts .right_leg .foot {
+  transform-origin: 0% 0%;
+}

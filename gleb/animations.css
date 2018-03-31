@@ -1,0 +1,132 @@
+.torso_fas div {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes torso_fas_head {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .head {animation-name: torso_fas_head;}
+/*@keyframes torso_fas_head_mouth_closed {*/
+  /*from {transform: rotate(20deg);}*/
+  /*to {transform: rotate(-20deg);}*/
+/*}*/
+/*.torso_fas .head .mouth_closed {animation-name: torso_fas_head_mouth_closed;}*/
+/*@keyframes torso_fas_head_mouth_open {*/
+  /*from {transform: rotate(20deg);}*/
+  /*to {transform: rotate(-20deg);}*/
+/*}*/
+/*.torso_fas .head .mouth_open {animation-name: torso_fas_head_mouth_open;}*/
+@keyframes torso_fas_left_shoulder {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .left_shoulder {animation-name: torso_fas_left_shoulder;}
+@keyframes torso_fas_left_shoulder_brush {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .left_shoulder .brush {animation-name: torso_fas_left_shoulder_brush;}
+@keyframes torso_fas_right_shoulder {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .right_shoulder {animation-name: torso_fas_right_shoulder;}
+@keyframes torso_fas_right_shoulder_brush {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .right_shoulder .brush {animation-name: torso_fas_right_shoulder_brush;}
+/*@keyframes torso_fas_shorts {*/
+  /*from {transform: rotate(20deg);}*/
+  /*to {transform: rotate(-20deg);}*/
+/*}*/
+/*.torso_fas .shorts {animation-name: torso_fas_shorts;}*/
+@keyframes torso_fas_shorts_left_trouser {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .shorts .left_trouser {animation-name: torso_fas_shorts_left_trouser;}
+@keyframes torso_fas_shorts_left_trouser_foot {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .shorts .left_trouser .foot {animation-name: torso_fas_shorts_left_trouser_foot;}
+@keyframes torso_fas_shorts_right_trouser {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .shorts .right_trouser {animation-name: torso_fas_shorts_right_trouser;}
+@keyframes torso_fas_shorts_right_trouser_foot {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_fas .shorts .right_trouser .foot {animation-name: torso_fas_shorts_right_trouser_foot;}
+.torso_side div {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes torso_side_head {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .head {animation-name: torso_side_head;}
+@keyframes torso_side_head_mouth_close {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .head .mouth_close {animation-name: torso_side_head_mouth_close;}
+@keyframes torso_side_head_mouth_open {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .head .mouth_open {animation-name: torso_side_head_mouth_open;}
+@keyframes torso_side_left_shoulder {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .left_shoulder {animation-name: torso_side_left_shoulder;}
+@keyframes torso_side_left_shoulder_hand {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .left_shoulder .hand {animation-name: torso_side_left_shoulder_hand;}
+@keyframes torso_side_right_shoulder {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .right_shoulder {animation-name: torso_side_right_shoulder;}
+@keyframes torso_side_right_shoulder_hand {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .right_shoulder .hand {animation-name: torso_side_right_shoulder_hand;}
+@keyframes torso_side_shorts {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .shorts {animation-name: torso_side_shorts;}
+@keyframes torso_side_shorts_left_leg {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .shorts .left_leg {animation-name: torso_side_shorts_left_leg;}
+@keyframes torso_side_shorts_left_leg_foot {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .shorts .left_leg .foot {animation-name: torso_side_shorts_left_leg_foot;}
+@keyframes torso_side_shorts_right_leg {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .shorts .right_leg {animation-name: torso_side_shorts_right_leg;}
+@keyframes torso_side_shorts_right_leg_foot {
+  from {transform: rotate(20deg);}
+  to {transform: rotate(-20deg);}
+}
+.torso_side .shorts .right_leg .foot {animation-name: torso_side_shorts_right_leg_foot;}
